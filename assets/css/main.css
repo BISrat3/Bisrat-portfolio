@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	html, body {
-		background:darkgray;
+		background:rgb(56, 54, 54);
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2563,7 +2563,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			
 		}
 
 			.image.fit img {
@@ -3146,11 +3146,11 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #e44c65;
+			border-color:lightgray;
 		}
 
 		.spotlight.style2 .content {
-			border-color: #5480f1;
+			border-color: lightgray;
 		}
 
 		.spotlight.style3 .content {
@@ -4219,4 +4219,15 @@ input, select, textarea {
 	
 	.fa-check-square{
 		color:lightcoral;
+	}
+
+	.first-container{
+		background-color: gray;
+	}
+
+	.btn-resume{
+		width: 178px;
+		height: 42px;
+		border: 2px solid black;
+		border-radius: 3px;
 	}
