@@ -4122,7 +4122,6 @@ input, select, textarea {
 	}
 
 	.btn{
-		width: 80px;
 		font-size: 20px;
 		margin-left: 20px;
 		background-color: #39c088;
@@ -4216,7 +4215,9 @@ input, select, textarea {
 		margin-right: 10px;
 	}
 
-	
+	.about-header{
+		text-align: center;
+	}
 	.fa-check-square{
 		color:lightcoral;
 	}
@@ -4230,4 +4231,7 @@ input, select, textarea {
 		height: 42px;
 		border: 2px solid black;
 		border-radius: 3px;
+		display: flex;
+		justify-content: center;
+		margin-left: -20px;
 	}
