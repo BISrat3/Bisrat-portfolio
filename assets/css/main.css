@@ -110,7 +110,7 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		/* border-bottom: dotted 1px; */
 		color: #e44c65;
 		text-decoration: none;
 	}
@@ -3547,7 +3547,6 @@ input, select, textarea {
 		padding: 6em 0;
 		text-align: center;
 	}
-
 		#footer .icons .icon.alt {
 			text-decoration: none;
 		}
@@ -3577,6 +3576,7 @@ input, select, textarea {
 			margin: 2em 0 0 0;
 			padding: 0;
 			text-align: center;
+			
 		}
 
 			#footer .copyright li {
@@ -3595,6 +3595,11 @@ input, select, textarea {
 
 				#footer .copyright li a {
 					color: inherit;
+					
+				}
+
+				#footer .copyright li a{
+					text-decoration: none;
 				}
 
 /* XLarge */
