@@ -2154,9 +2154,9 @@ input, select, textarea {
 
 /* Section/Article */
 
-	section.special, article.special {
+	/* section.special, article.special {
 		text-align: center;
-	}
+	} */
 
 	header p {
 		color: #0e0e0e;
@@ -4206,7 +4206,7 @@ input, select, textarea {
 		/* font-size: 20px; */
 		color: black;
 		margin-top: 5px;
-		text-align: center;
+		/* text-align: center; */
 	}
 
 	.title-p{
